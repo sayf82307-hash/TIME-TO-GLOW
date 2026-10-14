@@ -20,32 +20,7 @@ section{padding:48px 0}.section-head{display:flex;align-items:end;justify-conten
 .checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}.check{background:white;border:1px solid var(--line);border-radius:13px;padding:12px}.check input{accent-color:var(--rose);margin-left:8px}
 footer{background:#382832;color:#fff4f8;padding:32px 0;margin-top:20px}.footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.small{font-size:.86rem;color:#e5cbd6}.newsletter{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.newsletter input{min-width:0;flex:1;padding:11px;border-radius:12px;border:1px solid var(--line);font:inherit}.status{font-size:.9rem;color:var(--rose);margin-top:8px}
 @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:210px}.grid{grid-template-columns:1fr}.articles{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.checklist{grid-template-columns:1fr}nav{gap:12px}}
-</style>#products {
-  padding: 2rem;
-  background-color: #fff9f5;
-}
-
-.product-grid {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.product-item {
-  border: 1px solid #ffd1dc;
-  border-radius: 10px;
-  padding: 1.5rem;
-  width: 30%;
-  text-align: center;
-  background-color: #ffffff;
-}
-
-.product-item h3 {
-  color: #d46a82;
-}
-
+</style>
 .product-item span {
   font-weight: bold;
   display: block;
@@ -70,26 +45,7 @@ footer{background:#382832;color:#fff4f8;padding:32px 0;margin-top:20px}.footer-g
 </div></div></section>
 <section id="routine"><div class="wrap"><div class="section-head"><div><h2>قائمة روتين بسيط</h2><p>علّم على الخطوات اللي درتي اليوم. هاد القائمة كتخدم فالمتصفح ديالك فقط.</p></div></div><div class="notice"><div class="checklist"><label class="check"><input type="checkbox">تنظيف لطيف بدون فرك</label><label class="check"><input type="checkbox">استعمال المرطب</label><label class="check"><input type="checkbox">واقي الشمس خلال النهار</label><label class="check"><input type="checkbox">تجنب تجربة عدة منتجات جديدة</label></div></div></div></section>
 <section id="about"><div class="wrap"><div class="notice"><h2 style="margin-top:0">أهلاً بك في Glow & You ♡</h2><p>مشروع مستقل كيهتم بتبسيط معلومات العناية بالبشرة ومساعدة الناس يختارو روتيناً مناسباً ليهم. المقالات للتثقيف العام وما كتعوضش نصيحة طبيب الجلد.</p><p class="small" style="color:#776770">قبل النشر: راجع المعلومات، أضف مصادر موثوقة للمقالات، واستعمل فقط الصور اللي عندك الحق تنشرها.</p></div></div></section>
-</main><section id="products">
-  <h2>الأساسيات الموصى بها</h2>
-  <div class="product-grid">
-    <div class="product-item">
-      <h3>منظف لطيف</h3>
-      <p>ينظف البشرة بلطف دون تجفيفها.</p>
-      <span>السعر: 150 درهم</span>
-    </div>
-    <div class="product-item">
-      <h3>مرطب يومي</h3>
-      <p>يحافظ على رطوبة البشرة وحاجز الحماية.</p>
-      <span>السعر: 200 درهم</span>
-    </div>
-    <div class="product-item">
-      <h3>واقي شمس SPF 30</h3>
-      <p>حماية يومية من أشعة الشمس.</p>
-      <span>السعر: 180 درهم</span>
-    </div>
-  </div>
-</section>
+</main>
   
 <footer><div class="wrap footer-grid"><div><div class="brand" style="color:#ffd8e7">Glow & You ♡</div><p class="small">عناية لطيفة. معلومات واضحة. بلا تعقيد.</p></div><div><strong>تابع جديد المقالات</strong><form class="newsletter" id="newsletter"><input type="email" placeholder="البريد الإلكتروني (تجريبي)" aria-label="البريد الإلكتروني" required><button class="btn" type="submit" style="margin:0">تسجيل</button></form><div class="small" id="status">نموذج تجريبي فقط؛ لا يتم حفظ البريد أو إرساله.</div></div></div><div class="wrap small" style="margin-top:22px">© <span id="year"></span> Glow & You · نسخة أولية مجانية</div></footer>
 <script>
